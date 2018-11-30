@@ -1,0 +1,697 @@
+
+Tardigrade:caren2.6.4 vitorpeixoto$ java caren student_courses.bas 0.1 0.5 -s, -fisher -d
+    
+CareN - (Depth First Expansion for classification 1.4)   version  2.6.4  (beta)
+Basket-Data mode
+DataSet = student_courses.bas  NumItems = 33  Num_Trans = 211  minsup = 0.10000  SupAbsValue = 22  MinConf =  0.50000   NumFrequentItems = 20  
+ end counting 1-itemsets ....
+ end bitmaps mounting....
+ Deriving rules ...... for max size = 20
+ Filtering rules using minimal Confidence  
+ Filtering insignificant rules using Fisher exact Test with alpha  = 0.05
+ Depth-First Expansion....
+ Applying on 20 frequent items
+ Performing item:    20.
+  
+End of rules generation ......
+
+ 
+  
+  
+
+
+            Association Rules ...
+
+
+Sup = 0.12796  Conf = 1.00000   CC421    <--    CC447  &  CC583  &  DIP463
+Sup = 0.12796  Conf = 1.00000   CC421    <--    CC447  &  CC583  &  CC420
+Sup = 0.17062  Conf = 0.97297   CC421    <--    CC583  &  CC422
+Sup = 0.12796  Conf = 0.96429   CC421    <--    CC447  &  CC583
+Sup = 0.17536  Conf = 0.94872   CC421    <--    CC410  &  CC422
+Sup = 0.29858  Conf = 0.94030   CC421    <--    CC422  &  CC412  &  CC411
+Sup = 0.25118  Conf = 0.92982   CC421    <--    CC447  &  CC422
+Sup = 0.30806  Conf = 0.91549   CC421    <--    CC422  &  CC412
+Sup = 0.17536  Conf = 0.90244   CC421    <--    CC447  &  CC442  &  CC412  &  CC411
+Sup = 0.16588  Conf = 0.89744   CC421    <--    CC447  &  CC442  &  CC413  &  CC411
+Sup = 0.16588  Conf = 0.89744   CC421    <--    CC447  &  CC442  &  CC412  &  CC413
+Sup = 0.19431  Conf = 0.87234   CC421    <--    CC447  &  CC442
+Sup = 0.36019  Conf = 0.86364   CC421    <--    CC422
+Sup = 0.20379  Conf = 0.86000   CC421    <--    CC447  &  DIP463
+Sup = 0.25118  Conf = 0.85484   CC421    <--    CC447  &  CC420
+Sup = 0.19431  Conf = 0.78846   CC421    <--    CC583  &  CC442
+Sup = 0.26066  Conf = 0.78571   CC421    <--    CC447
+Sup = 0.20853  Conf = 0.77193   CC421    <--    CC583  &  CC420
+Sup = 0.18483  Conf = 0.76471   CC421    <--    CC410  &  CC420  &  DIP463
+Sup = 0.17536  Conf = 0.75510   CC421    <--    CC410  &  DIP461  &  CC420
+Sup = 0.18009  Conf = 0.74510   CC421    <--    CC410  &  GEST400  &  CC420
+Sup = 0.20379  Conf = 0.74138   CC421    <--    CC583  &  CC413
+Sup = 0.20379  Conf = 0.74138   CC421    <--    CC583  &  CC412
+Sup = 0.20853  Conf = 0.73333   CC421    <--    CC583  &  CC411
+Sup = 0.19431  Conf = 0.70690   CC421    <--    CC410  &  GEST400  &  DIP463
+Sup = 0.23697  Conf = 0.70423   CC421    <--    CC583  &  GEST400
+Sup = 0.23697  Conf = 0.70423   CC421    <--    CC583  &  DIP463
+Sup = 0.18957  Conf = 0.70175   CC421    <--    CC410  &  DIP461  &  GEST400
+Sup = 0.10900  Conf = 0.69697   CC421    <--    CC450
+Sup = 0.18957  Conf = 0.68966   CC421    <--    CC410  &  DIP461  &  DIP463
+Sup = 0.23697  Conf = 0.68493   CC421    <--    CC583  &  DIP461
+Sup = 0.32701  Conf = 0.65714   CC421    <--    CC420  &  DIP463
+Sup = 0.30806  Conf = 0.65657   CC421    <--    GEST400  &  CC420
+Sup = 0.33175  Conf = 0.65421   CC421    <--    CC420  &  CC411
+Sup = 0.24645  Conf = 0.65000   CC421    <--    CC410
+Sup = 0.29384  Conf = 0.64583   CC421    <--    CC442  &  GEST400
+Sup = 0.24171  Conf = 0.64557   CC421    <--    CC583
+Sup = 0.32227  Conf = 0.64151   CC421    <--    GEST400  &  CC411
+Sup = 0.30806  Conf = 0.63725   CC421    <--    CC442  &  DIP463
+Sup = 0.41232  Conf = 0.62143   CC421    <--    CC412
+Sup = 0.37915  Conf = 0.61069   CC421    <--    CC420
+Sup = 0.33649  Conf = 0.60169   CC421    <--    CC442
+Sup = 0.41232  Conf = 0.59184   CC421    <--    CC411
+Sup = 0.38863  Conf = 0.58571   CC421    <--    CC413
+Sup = 0.37441  Conf = 0.57664   CC421    <--    GEST400
+Sup = 0.38863  Conf = 0.56552   CC421    <--    DIP463
+Sup = 0.36493  Conf = 0.55000   CC421    <--    DIP461
+Sup = 0.10427  Conf = 0.88000   CC442    <--    CC456  &  DIP463  &  DIP461
+Sup = 0.16588  Conf = 0.87500   CC442    <--    CC573  &  CC411
+Sup = 0.15640  Conf = 0.86842   CC442    <--    CC573  &  CC413
+Sup = 0.15166  Conf = 0.86486   CC442    <--    CC573  &  CC412
+Sup = 0.17062  Conf = 0.85714   CC442    <--    CC447  &  GEST400  &  CC422
+Sup = 0.17062  Conf = 0.83721   CC442    <--    CC447  &  DIP463  &  CC422  &  CC420
+Sup = 0.22749  Conf = 0.82759   CC442    <--    CC583  &  CC413
+Sup = 0.22749  Conf = 0.82759   CC442    <--    CC583  &  CC412
+Sup = 0.18009  Conf = 0.82609   CC442    <--    CC435  &  CC412
+Sup = 0.18009  Conf = 0.82609   CC442    <--    CC447  &  CC411  &  CC422
+Sup = 0.40284  Conf = 0.82524   CC442    <--    DIP461  &  CC412
+Sup = 0.22275  Conf = 0.82456   CC442    <--    CC583  &  CC420
+Sup = 0.39810  Conf = 0.82353   CC442    <--    GEST400  &  CC412
+Sup = 0.17536  Conf = 0.82222   CC442    <--    CC447  &  CC421  &  CC411
+Sup = 0.10900  Conf = 0.82143   CC442    <--    CC456
+Sup = 0.41232  Conf = 0.82075   CC442    <--    GEST400  &  CC411
+Sup = 0.42180  Conf = 0.81651   CC442    <--    CC412  &  DIP463
+Sup = 0.42180  Conf = 0.81651   CC442    <--    DIP461  &  CC411
+Sup = 0.38863  Conf = 0.81188   CC442    <--    CC420  &  CC411  &  CC413
+Sup = 0.38389  Conf = 0.81000   CC442    <--    CC420  &  CC412  &  CC411
+Sup = 0.44076  Conf = 0.80870   CC442    <--    CC411  &  DIP463
+Sup = 0.41232  Conf = 0.80556   CC442    <--    DIP461  &  CC413
+Sup = 0.29384  Conf = 0.80519   CC442    <--    CC421  &  DIP461
+Sup = 0.19431  Conf = 0.80392   CC442    <--    CC583  &  CC421
+Sup = 0.40284  Conf = 0.80189   CC442    <--    GEST400  &  CC413
+Sup = 0.22749  Conf = 0.80000   CC442    <--    CC583  &  CC411
+Sup = 0.18957  Conf = 0.80000   CC442    <--    CC447  &  DIP463
+Sup = 0.43128  Conf = 0.79825   CC442    <--    DIP463  &  CC413
+Sup = 0.26066  Conf = 0.79710   CC442    <--    CC432  &  CC412
+Sup = 0.30806  Conf = 0.79268   CC442    <--    CC421  &  DIP463
+Sup = 0.39810  Conf = 0.78505   CC442    <--    CC420  &  CC411
+Sup = 0.29384  Conf = 0.78481   CC442    <--    CC421  &  GEST400
+Sup = 0.38863  Conf = 0.78095   CC442    <--    CC420  &  DIP463
+Sup = 0.36967  Conf = 0.78000   CC442    <--    CC420  &  DIP461
+Sup = 0.24645  Conf = 0.77612   CC442    <--    CC422  &  DIP461
+Sup = 0.26066  Conf = 0.77465   CC442    <--    CC422  &  DIP463
+Sup = 0.38863  Conf = 0.77358   CC442    <--    CC420  &  CC412
+Sup = 0.46445  Conf = 0.77165   CC442    <--    CC411  &  CC413
+Sup = 0.36019  Conf = 0.76768   CC442    <--    CC420  &  GEST400
+Sup = 0.32701  Conf = 0.74194   CC442    <--    CC432
+Sup = 0.48815  Conf = 0.73571   CC442    <--    CC413
+Sup = 0.45498  Conf = 0.73282   CC442    <--    CC412  &  CC411
+Sup = 0.11374  Conf = 0.72727   CC442    <--    CC450
+Sup = 0.45024  Conf = 0.72519   CC442    <--    GEST400  &  DIP461
+Sup = 0.13744  Conf = 0.72500   CC442    <--    CC430
+Sup = 0.21801  Conf = 0.71875   CC442    <--    CC435
+Sup = 0.21801  Conf = 0.71875   CC442    <--    CC416
+Sup = 0.46919  Conf = 0.70714   CC442    <--    CC412
+Sup = 0.48341  Conf = 0.70345   CC442    <--    DIP463
+Sup = 0.43602  Conf = 0.70229   CC442    <--    CC420
+Sup = 0.45498  Conf = 0.70073   CC442    <--    GEST400
+Sup = 0.46445  Conf = 0.70000   CC442    <--    DIP461
+Sup = 0.48341  Conf = 0.69388   CC442    <--    CC411
+Sup = 0.28910  Conf = 0.69318   CC442    <--    CC422
+Sup = 0.18009  Conf = 0.69091   CC442    <--    CC573
+Sup = 0.33649  Conf = 0.67619   CC442    <--    CC421
+Sup = 0.22275  Conf = 0.67143   CC442    <--    CC447
+Sup = 0.24645  Conf = 0.65823   CC442    <--    CC583
+Sup = 0.55924  Conf = 0.55924   CC442    <--    
+Sup = 0.17062  Conf = 0.97297   CC420    <--    CC583  &  CC422
+Sup = 0.26066  Conf = 0.96491   CC420    <--    CC447  &  CC422
+Sup = 0.25118  Conf = 0.96364   CC420    <--    CC447  &  CC421
+Sup = 0.21327  Conf = 0.95745   CC420    <--    CC447  &  CC442
+Sup = 0.24645  Conf = 0.94545   CC420    <--    CC583  &  CC413  &  CC411
+Sup = 0.22275  Conf = 0.94000   CC420    <--    CC447  &  DIP463
+Sup = 0.14692  Conf = 0.93939   CC420    <--    CC450
+Sup = 0.25592  Conf = 0.93103   CC420    <--    CC583  &  CC411  &  DIP461
+Sup = 0.25592  Conf = 0.93103   CC420    <--    CC583  &  CC411  &  DIP463
+Sup = 0.25118  Conf = 0.92982   CC420    <--    CC583  &  CC411  &  GEST400
+Sup = 0.31280  Conf = 0.92958   CC420    <--    CC422  &  DIP463
+Sup = 0.18483  Conf = 0.92857   CC420    <--    CC410  &  CC421  &  DIP463
+Sup = 0.18009  Conf = 0.92683   CC420    <--    CC410  &  CC421  &  GEST400
+Sup = 0.17536  Conf = 0.92500   CC420    <--    CC410  &  CC421  &  DIP461
+Sup = 0.25118  Conf = 0.91379   CC420    <--    CC583  &  CC413
+Sup = 0.22275  Conf = 0.90385   CC420    <--    CC583  &  CC442
+Sup = 0.13270  Conf = 0.90323   CC420    <--    CC583  &  CC410
+Sup = 0.25592  Conf = 0.90000   CC420    <--    CC583  &  CC411
+Sup = 0.24645  Conf = 0.89655   CC420    <--    CC583  &  CC412
+Sup = 0.36967  Conf = 0.88636   CC420    <--    CC422
+Sup = 0.29384  Conf = 0.88571   CC420    <--    CC447
+Sup = 0.20853  Conf = 0.88000   CC420    <--    CC435  &  CC413
+Sup = 0.29858  Conf = 0.87500   CC420    <--    CC421  &  DIP463  &  CC411
+Sup = 0.18957  Conf = 0.86957   CC420    <--    CC410  &  CC442
+Sup = 0.24171  Conf = 0.86441   CC420    <--    CC410  &  GEST400
+Sup = 0.20853  Conf = 0.86275   CC420    <--    CC583  &  CC421
+Sup = 0.33175  Conf = 0.85366   CC420    <--    CC421  &  CC413
+Sup = 0.24171  Conf = 0.85000   CC420    <--    CC410  &  DIP463
+Sup = 0.21327  Conf = 0.84906   CC420    <--    CC435  &  DIP461  &  DIP463
+Sup = 0.21327  Conf = 0.84906   CC420    <--    CC435  &  GEST400  &  DIP463
+Sup = 0.20853  Conf = 0.84615   CC420    <--    CC435  &  GEST400  &  DIP461
+Sup = 0.23223  Conf = 0.84483   CC420    <--    CC410  &  DIP461
+Sup = 0.32701  Conf = 0.84146   CC420    <--    CC421  &  DIP463
+Sup = 0.43128  Conf = 0.83486   CC420    <--    DIP463  &  CC412
+Sup = 0.40284  Conf = 0.83333   CC420    <--    GEST400  &  CC412
+Sup = 0.30332  Conf = 0.83117   CC420    <--    CC421  &  DIP461
+Sup = 0.38863  Conf = 0.82828   CC420    <--    CC442  &  CC412
+Sup = 0.40284  Conf = 0.82524   CC420    <--    DIP461  &  CC412
+Sup = 0.44550  Conf = 0.82456   CC420    <--    DIP463  &  CC413
+Sup = 0.39810  Conf = 0.82353   CC420    <--    CC442  &  CC411
+Sup = 0.30806  Conf = 0.82278   CC420    <--    CC421  &  GEST400
+Sup = 0.41232  Conf = 0.82075   CC420    <--    GEST400  &  CC411
+Sup = 0.44550  Conf = 0.81739   CC420    <--    DIP463  &  CC411
+Sup = 0.42180  Conf = 0.81651   CC420    <--    DIP461  &  CC411
+Sup = 0.24645  Conf = 0.81250   CC420    <--    CC435
+Sup = 0.33175  Conf = 0.80460   CC420    <--    CC421  &  CC411
+Sup = 0.36967  Conf = 0.80412   CC420    <--    CC442  &  DIP461  &  DIP463
+Sup = 0.27014  Conf = 0.80282   CC420    <--    CC583  &  DIP463
+Sup = 0.36019  Conf = 0.80000   CC420    <--    CC442  &  GEST400  &  DIP463
+Sup = 0.35545  Conf = 0.78947   CC420    <--    CC442  &  GEST400  &  DIP461
+Sup = 0.52133  Conf = 0.78571   CC420    <--    CC413
+Sup = 0.43602  Conf = 0.77966   CC420    <--    CC442
+Sup = 0.37915  Conf = 0.76190   CC420    <--    CC421
+Sup = 0.50237  Conf = 0.75714   CC420    <--    CC412
+Sup = 0.33175  Conf = 0.75269   CC420    <--    CC432
+Sup = 0.50711  Conf = 0.72789   CC420    <--    CC411
+Sup = 0.27488  Conf = 0.72500   CC420    <--    CC410
+Sup = 0.49763  Conf = 0.72414   CC420    <--    DIP463
+Sup = 0.46919  Conf = 0.72263   CC420    <--    GEST400
+Sup = 0.27014  Conf = 0.72152   CC420    <--    CC583
+Sup = 0.47393  Conf = 0.71429   CC420    <--    DIP461
+Sup = 0.62085  Conf = 0.62085   CC420    <--    
+Sup = 0.26066  Conf = 1.00000   GEST400    <--    CC416  &  DIP461
+Sup = 0.22749  Conf = 1.00000   GEST400    <--    CC447  &  DIP461
+Sup = 0.18957  Conf = 1.00000   GEST400    <--    CC573  &  CC411
+Sup = 0.18009  Conf = 1.00000   GEST400    <--    CC573  &  CC432
+Sup = 0.18009  Conf = 1.00000   GEST400    <--    CC573  &  CC442
+Sup = 0.18009  Conf = 1.00000   GEST400    <--    CC573  &  CC413
+Sup = 0.17536  Conf = 1.00000   GEST400    <--    CC573  &  CC412
+Sup = 0.16114  Conf = 1.00000   GEST400    <--    CC583  &  CC432
+Sup = 0.13270  Conf = 1.00000   GEST400    <--    CC447  &  CC583
+Sup = 0.11374  Conf = 1.00000   GEST400    <--    CC435  &  CC583
+Sup = 0.37915  Conf = 0.98765   GEST400    <--    CC432  &  DIP463  &  DIP461
+Sup = 0.27014  Conf = 0.98276   GEST400    <--    CC583  &  CC413
+Sup = 0.26540  Conf = 0.98246   GEST400    <--    CC583  &  CC420
+Sup = 0.25592  Conf = 0.98182   GEST400    <--    CC416  &  DIP463
+Sup = 0.25118  Conf = 0.98148   GEST400    <--    CC435  &  DIP463
+Sup = 0.24171  Conf = 0.98077   GEST400    <--    CC583  &  CC442
+Sup = 0.24171  Conf = 0.98077   GEST400    <--    CC573  &  DIP463
+Sup = 0.23697  Conf = 0.98039   GEST400    <--    CC583  &  CC421
+Sup = 0.38389  Conf = 0.97590   GEST400    <--    CC432  &  DIP461
+Sup = 0.37915  Conf = 0.97561   GEST400    <--    CC432  &  DIP463
+Sup = 0.35545  Conf = 0.97403   GEST400    <--    CC421  &  DIP461
+Sup = 0.17062  Conf = 0.97297   GEST400    <--    CC583  &  CC422
+Sup = 0.32701  Conf = 0.97183   GEST400    <--    CC583  &  DIP463
+Sup = 0.45024  Conf = 0.96939   GEST400    <--    CC442  &  DIP461
+Sup = 0.27488  Conf = 0.96667   GEST400    <--    CC410  &  DIP463
+Sup = 0.26540  Conf = 0.96552   GEST400    <--    CC583  &  CC412
+Sup = 0.19905  Conf = 0.95455   GEST400    <--    CC410  &  CC442  &  CC411
+Sup = 0.27014  Conf = 0.95000   GEST400    <--    CC583  &  CC411
+Sup = 0.61137  Conf = 0.94853   GEST400    <--    DIP463  &  DIP461
+Sup = 0.24645  Conf = 0.94545   GEST400    <--    CC573
+Sup = 0.62085  Conf = 0.93571   GEST400    <--    DIP461
+Sup = 0.18009  Conf = 0.92683   GEST400    <--    CC410  &  CC442  &  CC413  &  CC412
+Sup = 0.19905  Conf = 0.91304   GEST400    <--    CC410  &  CC442
+Sup = 0.14218  Conf = 0.90909   GEST400    <--    CC450
+Sup = 0.62085  Conf = 0.90345   GEST400    <--    DIP463
+Sup = 0.33649  Conf = 0.89873   GEST400    <--    CC583
+Sup = 0.23223  Conf = 0.89091   GEST400    <--    CC410  &  CC420  &  CC412  &  CC411
+Sup = 0.22275  Conf = 0.88679   GEST400    <--    CC410  &  CC420  &  CC413  &  CC412
+Sup = 0.24171  Conf = 0.87931   GEST400    <--    CC410  &  CC420
+Sup = 0.29384  Conf = 0.87324   GEST400    <--    CC421  &  CC442
+Sup = 0.38389  Conf = 0.87097   GEST400    <--    CC432
+Sup = 0.26066  Conf = 0.85938   GEST400    <--    CC416
+Sup = 0.11374  Conf = 0.85714   GEST400    <--    CC456
+Sup = 0.41232  Conf = 0.85294   GEST400    <--    CC442  &  CC411
+Sup = 0.39810  Conf = 0.84848   GEST400    <--    CC442  &  CC412
+Sup = 0.25118  Conf = 0.82812   GEST400    <--    CC435
+Sup = 0.45498  Conf = 0.81356   GEST400    <--    CC442
+Sup = 0.41232  Conf = 0.81308   GEST400    <--    CC420  &  CC411
+Sup = 0.30806  Conf = 0.81250   GEST400    <--    CC421  &  CC420
+Sup = 0.40284  Conf = 0.80189   GEST400    <--    CC420  &  CC412
+Sup = 0.47393  Conf = 0.78740   GEST400    <--    CC411  &  CC413
+Sup = 0.50237  Conf = 0.75714   GEST400    <--    CC413
+Sup = 0.46919  Conf = 0.75573   GEST400    <--    CC420
+Sup = 0.37441  Conf = 0.75238   GEST400    <--    CC421
+Sup = 0.31280  Conf = 0.75000   GEST400    <--    CC422
+Sup = 0.27962  Conf = 0.73750   GEST400    <--    CC410
+Sup = 0.48341  Conf = 0.72857   GEST400    <--    CC412
+Sup = 0.50237  Conf = 0.72109   GEST400    <--    CC411
+Sup = 0.64929  Conf = 0.64929   GEST400    <--    
+Sup = 0.38389  Conf = 1.00000   DIP461    <--    CC432  &  GEST400
+Sup = 0.33649  Conf = 1.00000   DIP461    <--    CC583  &  DIP463
+Sup = 0.27488  Conf = 1.00000   DIP461    <--    CC583  &  CC413
+Sup = 0.27014  Conf = 1.00000   DIP461    <--    CC583  &  CC420
+Sup = 0.26066  Conf = 1.00000   DIP461    <--    CC416  &  GEST400
+Sup = 0.24645  Conf = 1.00000   DIP461    <--    CC583  &  CC442
+Sup = 0.24645  Conf = 1.00000   DIP461    <--    CC573  &  DIP463
+Sup = 0.18957  Conf = 1.00000   DIP461    <--    CC573  &  CC411
+Sup = 0.18009  Conf = 1.00000   DIP461    <--    CC573  &  CC432
+Sup = 0.18009  Conf = 1.00000   DIP461    <--    CC573  &  CC442
+Sup = 0.18009  Conf = 1.00000   DIP461    <--    CC573  &  CC413
+Sup = 0.17536  Conf = 1.00000   DIP461    <--    CC583  &  CC422
+Sup = 0.17536  Conf = 1.00000   DIP461    <--    CC573  &  CC412
+Sup = 0.16114  Conf = 1.00000   DIP461    <--    CC583  &  CC432
+Sup = 0.45024  Conf = 0.98958   DIP461    <--    CC442  &  GEST400
+Sup = 0.38389  Conf = 0.98780   DIP461    <--    CC432  &  DIP463
+Sup = 0.61137  Conf = 0.98473   DIP461    <--    GEST400  &  DIP463
+Sup = 0.27014  Conf = 0.98276   DIP461    <--    CC583  &  CC412
+Sup = 0.49289  Conf = 0.98113   DIP461    <--    GEST400  &  CC411
+Sup = 0.23697  Conf = 0.98039   DIP461    <--    CC583  &  CC421
+Sup = 0.27488  Conf = 0.96667   DIP461    <--    CC583  &  CC411
+Sup = 0.62085  Conf = 0.95620   DIP461    <--    GEST400
+Sup = 0.19905  Conf = 0.95455   DIP461    <--    CC410  &  CC442  &  CC411
+Sup = 0.24645  Conf = 0.94545   DIP461    <--    CC573
+Sup = 0.64455  Conf = 0.93793   DIP461    <--    DIP463
+Sup = 0.34597  Conf = 0.92405   DIP461    <--    CC583
+Sup = 0.19905  Conf = 0.91304   DIP461    <--    CC410  &  CC442
+Sup = 0.14218  Conf = 0.90909   DIP461    <--    CC450
+Sup = 0.11848  Conf = 0.89286   DIP461    <--    CC456
+Sup = 0.39336  Conf = 0.89247   DIP461    <--    CC432
+Sup = 0.10900  Conf = 0.88462   DIP461    <--    CC430  &  CC411
+Sup = 0.42180  Conf = 0.87255   DIP461    <--    CC442  &  CC411
+Sup = 0.26066  Conf = 0.85938   DIP461    <--    CC416
+Sup = 0.37915  Conf = 0.85106   DIP461    <--    CC442  &  CC412  &  CC413
+Sup = 0.23223  Conf = 0.84483   DIP461    <--    CC410  &  CC420
+Sup = 0.42180  Conf = 0.83178   DIP461    <--    CC420  &  CC411
+Sup = 0.46445  Conf = 0.83051   DIP461    <--    CC442
+Sup = 0.25118  Conf = 0.82812   DIP461    <--    CC435
+Sup = 0.48815  Conf = 0.81102   DIP461    <--    CC413  &  CC411
+Sup = 0.40284  Conf = 0.80189   DIP461    <--    CC420  &  CC412
+Sup = 0.51185  Conf = 0.77143   DIP461    <--    CC413
+Sup = 0.47393  Conf = 0.76336   DIP461    <--    CC420
+Sup = 0.31754  Conf = 0.76136   DIP461    <--    CC422
+Sup = 0.51659  Conf = 0.74150   DIP461    <--    CC411
+Sup = 0.48815  Conf = 0.73571   DIP461    <--    CC412
+Sup = 0.36493  Conf = 0.73333   DIP461    <--    CC421
+Sup = 0.66351  Conf = 0.66351   DIP461    <--    
+Sup = 0.11374  Conf = 1.00000   CC413    <--    CC435  &  CC410
+Sup = 0.47867  Conf = 0.96190   CC413    <--    DIP463  &  CC412  &  CC411
+Sup = 0.46445  Conf = 0.96078   CC413    <--    CC442  &  CC411
+Sup = 0.20853  Conf = 0.95652   CC413    <--    CC410  &  CC442
+Sup = 0.47867  Conf = 0.95283   CC413    <--    CC420  &  CC412
+Sup = 0.27014  Conf = 0.95000   CC413    <--    CC410  &  DIP463
+Sup = 0.44550  Conf = 0.94949   CC413    <--    CC442  &  CC412
+Sup = 0.26540  Conf = 0.94915   CC413    <--    CC410  &  GEST400
+Sup = 0.17536  Conf = 0.94872   CC413    <--    CC410  &  CC432
+Sup = 0.26066  Conf = 0.94828   CC413    <--    CC410  &  CC420
+Sup = 0.26066  Conf = 0.94828   CC413    <--    CC410  &  DIP461
+Sup = 0.48815  Conf = 0.94495   CC413    <--    DIP463  &  CC412
+Sup = 0.48815  Conf = 0.94495   CC413    <--    DIP461  &  CC411
+Sup = 0.47867  Conf = 0.94393   CC413    <--    CC420  &  CC411
+Sup = 0.47393  Conf = 0.94340   CC413    <--    GEST400  &  CC411
+Sup = 0.45972  Conf = 0.94175   CC413    <--    DIP461  &  CC412
+Sup = 0.45498  Conf = 0.94118   CC413    <--    GEST400  &  CC412
+Sup = 0.51185  Conf = 0.93913   CC413    <--    DIP463  &  CC411
+Sup = 0.25118  Conf = 0.92982   CC413    <--    CC583  &  CC420
+Sup = 0.40284  Conf = 0.92391   CC413    <--    CC442  &  CC420
+Sup = 0.31754  Conf = 0.91781   CC413    <--    CC432  &  CC411
+Sup = 0.56872  Conf = 0.91603   CC413    <--    CC412  &  CC411
+Sup = 0.59716  Conf = 0.90000   CC413    <--    CC412
+Sup = 0.44550  Conf = 0.89524   CC413    <--    CC420  &  DIP463
+Sup = 0.41706  Conf = 0.88000   CC413    <--    CC420  &  DIP461
+Sup = 0.41232  Conf = 0.87879   CC413    <--    CC420  &  GEST400
+Sup = 0.48815  Conf = 0.87288   CC413    <--    CC442
+Sup = 0.60190  Conf = 0.86395   CC413    <--    CC411
+Sup = 0.33175  Conf = 0.85366   CC413    <--    CC421  &  DIP463
+Sup = 0.32227  Conf = 0.85000   CC413    <--    CC410
+Sup = 0.13270  Conf = 0.84848   CC413    <--    CC450
+Sup = 0.30806  Conf = 0.84416   CC413    <--    CC421  &  DIP461
+Sup = 0.52133  Conf = 0.83969   CC413    <--    CC420
+Sup = 0.34123  Conf = 0.81818   CC413    <--    CC422
+Sup = 0.35071  Conf = 0.79570   CC413    <--    CC432
+Sup = 0.54028  Conf = 0.78621   CC413    <--    DIP463
+Sup = 0.23697  Conf = 0.78125   CC413    <--    CC435
+Sup = 0.38863  Conf = 0.78095   CC413    <--    CC421
+Sup = 0.50237  Conf = 0.77372   CC413    <--    GEST400
+Sup = 0.51185  Conf = 0.77143   CC413    <--    DIP461
+Sup = 0.25592  Conf = 0.77143   CC413    <--    CC447
+Sup = 0.66351  Conf = 0.66351   CC413    <--    
+Sup = 0.12796  Conf = 1.00000   CC412    <--    CC447  &  CC410
+Sup = 0.27488  Conf = 0.96667   CC412    <--    CC410  &  DIP463
+Sup = 0.27014  Conf = 0.96610   CC412    <--    CC410  &  GEST400
+Sup = 0.26540  Conf = 0.96552   CC412    <--    CC410  &  CC420
+Sup = 0.26540  Conf = 0.96552   CC412    <--    CC410  &  DIP461
+Sup = 0.25118  Conf = 0.96364   CC412    <--    CC447  &  CC411
+Sup = 0.23697  Conf = 0.96154   CC412    <--    CC410  &  CC421
+Sup = 0.30806  Conf = 0.95588   CC412    <--    CC410  &  CC413
+Sup = 0.39336  Conf = 0.95402   CC412    <--    CC421  &  CC411
+Sup = 0.27014  Conf = 0.95000   CC412    <--    CC583  &  CC411
+Sup = 0.56872  Conf = 0.94488   CC412    <--    CC413  &  CC411
+Sup = 0.45498  Conf = 0.94118   CC412    <--    CC442  &  CC411
+Sup = 0.47393  Conf = 0.93458   CC412    <--    CC420  &  CC411
+Sup = 0.46445  Conf = 0.92453   CC412    <--    GEST400  &  CC411
+Sup = 0.22749  Conf = 0.92308   CC412    <--    CC583  &  CC442
+Sup = 0.34597  Conf = 0.91250   CC412    <--    CC410
+Sup = 0.24645  Conf = 0.91228   CC412    <--    CC583  &  CC420
+Sup = 0.30332  Conf = 0.90141   CC412    <--    CC421  &  CC442
+Sup = 0.59716  Conf = 0.90000   CC412    <--    CC413
+Sup = 0.21327  Conf = 0.90000   CC412    <--    CC447  &  DIP463
+Sup = 0.38863  Conf = 0.89130   CC412    <--    CC442  &  CC420
+Sup = 0.62085  Conf = 0.89116   CC412    <--    CC411
+Sup = 0.39810  Conf = 0.87500   CC412    <--    CC442  &  GEST400
+Sup = 0.33175  Conf = 0.87500   CC412    <--    CC421  &  CC420
+Sup = 0.42180  Conf = 0.87255   CC412    <--    CC442  &  DIP463
+Sup = 0.43128  Conf = 0.86667   CC412    <--    CC420  &  DIP463
+Sup = 0.40284  Conf = 0.85859   CC412    <--    CC420  &  GEST400
+Sup = 0.40284  Conf = 0.85000   CC412    <--    CC420  &  DIP461
+Sup = 0.46919  Conf = 0.83898   CC412    <--    CC442
+Sup = 0.41232  Conf = 0.82857   CC412    <--    CC421
+Sup = 0.12796  Conf = 0.81818   CC412    <--    CC450
+Sup = 0.50237  Conf = 0.80916   CC412    <--    CC420
+Sup = 0.33649  Conf = 0.80682   CC412    <--    CC422
+Sup = 0.26540  Conf = 0.80000   CC412    <--    CC447
+Sup = 0.51659  Conf = 0.75172   CC412    <--    DIP463
+Sup = 0.48341  Conf = 0.74453   CC412    <--    GEST400
+Sup = 0.32701  Conf = 0.74194   CC412    <--    CC432
+Sup = 0.48815  Conf = 0.73571   CC412    <--    DIP461
+Sup = 0.66351  Conf = 0.66351   CC412    <--    
+Sup = 0.51659  Conf = 1.00000   DIP463    <--    DIP461  &  CC411
+Sup = 0.51185  Conf = 1.00000   DIP463    <--    DIP461  &  CC413
+Sup = 0.50237  Conf = 1.00000   DIP463    <--    GEST400  &  CC411
+Sup = 0.48815  Conf = 1.00000   DIP463    <--    DIP461  &  CC412
+Sup = 0.36493  Conf = 1.00000   DIP463    <--    CC421  &  DIP461
+Sup = 0.31280  Conf = 1.00000   DIP463    <--    CC422  &  GEST400
+Sup = 0.27488  Conf = 1.00000   DIP463    <--    CC583  &  CC413
+Sup = 0.27014  Conf = 1.00000   DIP463    <--    CC583  &  CC420
+Sup = 0.25118  Conf = 1.00000   DIP463    <--    CC435  &  GEST400
+Sup = 0.24645  Conf = 1.00000   DIP463    <--    CC583  &  CC442
+Sup = 0.18957  Conf = 1.00000   DIP463    <--    CC573  &  CC411
+Sup = 0.18009  Conf = 1.00000   DIP463    <--    CC573  &  CC432
+Sup = 0.18009  Conf = 1.00000   DIP463    <--    CC573  &  CC442
+Sup = 0.18009  Conf = 1.00000   DIP463    <--    CC573  &  CC413
+Sup = 0.17536  Conf = 1.00000   DIP463    <--    CC583  &  CC422
+Sup = 0.17536  Conf = 1.00000   DIP463    <--    CC573  &  CC412
+Sup = 0.16114  Conf = 1.00000   DIP463    <--    CC583  &  CC432
+Sup = 0.11374  Conf = 1.00000   DIP463    <--    CC435  &  CC583
+Sup = 0.49763  Conf = 0.99057   DIP463    <--    GEST400  &  CC413
+Sup = 0.47867  Conf = 0.99020   DIP463    <--    GEST400  &  CC412
+Sup = 0.45024  Conf = 0.98958   DIP463    <--    CC442  &  GEST400
+Sup = 0.37915  Conf = 0.98765   DIP463    <--    CC432  &  GEST400
+Sup = 0.61137  Conf = 0.98473   DIP463    <--    GEST400  &  DIP461
+Sup = 0.27014  Conf = 0.98276   DIP463    <--    CC583  &  CC412
+Sup = 0.23697  Conf = 0.98039   DIP463    <--    CC583  &  CC421
+Sup = 0.45972  Conf = 0.97980   DIP463    <--    CC420  &  GEST400
+Sup = 0.20379  Conf = 0.97727   DIP463    <--    CC410  &  CC442  &  CC411
+Sup = 0.64455  Conf = 0.97143   DIP463    <--    DIP461
+Sup = 0.27488  Conf = 0.96667   DIP463    <--    CC583  &  CC411
+Sup = 0.62085  Conf = 0.95620   DIP463    <--    GEST400
+Sup = 0.18483  Conf = 0.95122   DIP463    <--    CC410  &  CC421  &  CC420
+Sup = 0.24645  Conf = 0.94545   DIP463    <--    CC573
+Sup = 0.14692  Conf = 0.93939   DIP463    <--    CC450
+Sup = 0.19905  Conf = 0.93333   DIP463    <--    CC416  &  CC413
+Sup = 0.32701  Conf = 0.93243   DIP463    <--    CC432  &  CC413
+Sup = 0.32227  Conf = 0.93151   DIP463    <--    CC432  &  CC411
+Sup = 0.12322  Conf = 0.92857   DIP463    <--    CC456
+Sup = 0.30332  Conf = 0.92754   DIP463    <--    CC432  &  CC412
+Sup = 0.30806  Conf = 0.91549   DIP463    <--    CC421  &  CC442
+Sup = 0.44076  Conf = 0.91176   DIP463    <--    CC442  &  CC411
+Sup = 0.42180  Conf = 0.89899   DIP463    <--    CC442  &  CC412
+Sup = 0.33649  Conf = 0.89873   DIP463    <--    CC583
+Sup = 0.11374  Conf = 0.88889   DIP463    <--    CC447  &  CC410
+Sup = 0.38863  Conf = 0.88172   DIP463    <--    CC432
+Sup = 0.24171  Conf = 0.87931   DIP463    <--    CC410  &  CC420
+Sup = 0.44550  Conf = 0.87850   DIP463    <--    CC420  &  CC411
+Sup = 0.48341  Conf = 0.86441   DIP463    <--    CC442
+Sup = 0.32701  Conf = 0.86250   DIP463    <--    CC421  &  CC420
+Sup = 0.26066  Conf = 0.85938   DIP463    <--    CC416
+Sup = 0.43128  Conf = 0.85849   DIP463    <--    CC420  &  CC412
+Sup = 0.44550  Conf = 0.85455   DIP463    <--    CC420  &  CC413
+Sup = 0.51185  Conf = 0.85039   DIP463    <--    CC413  &  CC411
+Sup = 0.25592  Conf = 0.84375   DIP463    <--    CC435
+Sup = 0.54028  Conf = 0.81429   DIP463    <--    CC413
+Sup = 0.33649  Conf = 0.80682   DIP463    <--    CC422
+Sup = 0.49763  Conf = 0.80153   DIP463    <--    CC420
+Sup = 0.54502  Conf = 0.78231   DIP463    <--    CC411
+Sup = 0.38863  Conf = 0.78095   DIP463    <--    CC421
+Sup = 0.51659  Conf = 0.77857   DIP463    <--    CC412
+Sup = 0.68720  Conf = 0.68720   DIP463    <--    
+Sup = 0.28436  Conf = 1.00000   CC411    <--    CC410  &  DIP463
+Sup = 0.27488  Conf = 1.00000   CC411    <--    CC410  &  DIP461
+Sup = 0.45498  Conf = 0.98969   CC411    <--    DIP461  &  CC412  &  CC413
+Sup = 0.44076  Conf = 0.98936   CC411    <--    CC442  &  CC412  &  CC413
+Sup = 0.24645  Conf = 0.98113   CC411    <--    CC583  &  CC420  &  CC413
+Sup = 0.47867  Conf = 0.98058   CC411    <--    CC413  &  DIP463  &  CC412
+Sup = 0.44550  Conf = 0.97917   CC411    <--    GEST400  &  CC412  &  CC413
+Sup = 0.42180  Conf = 0.97802   CC411    <--    CC442  &  DIP463  &  CC413
+Sup = 0.40284  Conf = 0.97701   CC411    <--    CC442  &  DIP461  &  CC413
+Sup = 0.39336  Conf = 0.97647   CC411    <--    CC442  &  GEST400  &  CC413
+Sup = 0.47393  Conf = 0.97087   CC411    <--    DIP461  &  CC412
+Sup = 0.45498  Conf = 0.96970   CC411    <--    CC442  &  CC412
+Sup = 0.49763  Conf = 0.96330   CC411    <--    CC412  &  DIP463
+Sup = 0.48815  Conf = 0.95370   CC411    <--    DIP461  &  CC413
+Sup = 0.56872  Conf = 0.95238   CC411    <--    CC413  &  CC412
+Sup = 0.46445  Conf = 0.95146   CC411    <--    CC442  &  CC413
+Sup = 0.36019  Conf = 0.95000   CC411    <--    CC410
+Sup = 0.51185  Conf = 0.94737   CC411    <--    CC413  &  DIP463
+Sup = 0.25592  Conf = 0.94737   CC411    <--    CC583  &  CC420
+Sup = 0.47393  Conf = 0.94340   CC411    <--    GEST400  &  CC413
+Sup = 0.62085  Conf = 0.93571   CC411    <--    CC412
+Sup = 0.13270  Conf = 0.93333   CC411    <--    CC450  &  DIP461  &  DIP463
+Sup = 0.13270  Conf = 0.93333   CC411    <--    CC450  &  GEST400  &  DIP463
+Sup = 0.12796  Conf = 0.93103   CC411    <--    CC450  &  GEST400  &  DIP461
+Sup = 0.39810  Conf = 0.91304   CC411    <--    CC442  &  CC420
+Sup = 0.44076  Conf = 0.91176   CC411    <--    CC442  &  DIP463
+Sup = 0.14218  Conf = 0.90909   CC411    <--    CC450
+Sup = 0.42180  Conf = 0.90816   CC411    <--    CC442  &  DIP461
+Sup = 0.60190  Conf = 0.90714   CC411    <--    CC413
+Sup = 0.41232  Conf = 0.90625   CC411    <--    CC442  &  GEST400
+Sup = 0.44550  Conf = 0.89524   CC411    <--    CC420  &  DIP463
+Sup = 0.42180  Conf = 0.89000   CC411    <--    CC420  &  DIP461
+Sup = 0.32227  Conf = 0.88312   CC411    <--    CC421  &  DIP461
+Sup = 0.20853  Conf = 0.88000   CC411    <--    CC447  &  DIP463
+Sup = 0.41232  Conf = 0.87879   CC411    <--    CC420  &  GEST400
+Sup = 0.34123  Conf = 0.87805   CC411    <--    CC421  &  DIP463
+Sup = 0.33175  Conf = 0.87500   CC411    <--    CC421  &  CC420
+Sup = 0.48341  Conf = 0.86441   CC411    <--    CC442
+Sup = 0.35071  Conf = 0.84091   CC411    <--    CC422
+Sup = 0.41232  Conf = 0.82857   CC411    <--    CC421
+Sup = 0.50711  Conf = 0.81679   CC411    <--    CC420
+Sup = 0.54502  Conf = 0.79310   CC411    <--    DIP463
+Sup = 0.26066  Conf = 0.78571   CC411    <--    CC447
+Sup = 0.34597  Conf = 0.78495   CC411    <--    CC432
+Sup = 0.51659  Conf = 0.77857   CC411    <--    DIP461
+Sup = 0.50237  Conf = 0.77372   CC411    <--    GEST400
+Sup = 0.69668  Conf = 0.69668   CC411    <--    
+Sup = 0.13744  Conf = 0.56863   CC430    <--    CC435  &  CC432
+Sup = 0.13270  Conf = 0.50909   CC430    <--    CC416  &  CC432
+Sup = 0.12796  Conf = 0.51923   CC573    <--    CC442  &  CC432  &  CC411  &  GEST400
+Sup = 0.12796  Conf = 0.50943   CC573    <--    CC442  &  CC432  &  CC411  &  DIP461
+Sup = 0.13270  Conf = 0.50909   CC573    <--    CC416  &  GEST400
+Sup = 0.13270  Conf = 0.50909   CC573    <--    CC416  &  DIP461
+Sup = 0.13270  Conf = 0.50909   CC573    <--    CC416  &  DIP463
+Sup = 0.12796  Conf = 0.50000   CC573    <--    CC442  &  CC432  &  CC411  &  DIP463
+Sup = 0.11848  Conf = 0.83333   CC416    <--    CC430  &  GEST400
+Sup = 0.11848  Conf = 0.80645   CC416    <--    CC430  &  DIP461
+Sup = 0.11374  Conf = 0.80000   CC416    <--    CC430  &  DIP463  &  CC432
+Sup = 0.17536  Conf = 0.72549   CC416    <--    CC435  &  CC432
+Sup = 0.13744  Conf = 0.72500   CC416    <--    CC430
+Sup = 0.16588  Conf = 0.67308   CC416    <--    CC435  &  GEST400  &  DIP461
+Sup = 0.16588  Conf = 0.66038   CC416    <--    CC435  &  DIP461  &  DIP463
+Sup = 0.16588  Conf = 0.66038   CC416    <--    CC435  &  GEST400  &  DIP463
+Sup = 0.11848  Conf = 0.62500   CC416    <--    CC435  &  CC442  &  GEST400
+Sup = 0.11848  Conf = 0.60976   CC416    <--    CC435  &  CC442  &  DIP463
+Sup = 0.11848  Conf = 0.60976   CC416    <--    CC435  &  CC442  &  DIP461
+Sup = 0.18483  Conf = 0.60938   CC416    <--    CC435
+Sup = 0.12322  Conf = 0.60465   CC416    <--    CC435  &  CC413  &  DIP461
+Sup = 0.12322  Conf = 0.60465   CC416    <--    CC435  &  CC413  &  GEST400
+Sup = 0.12322  Conf = 0.60465   CC416    <--    CC435  &  CC411  &  DIP461
+Sup = 0.12322  Conf = 0.60465   CC416    <--    CC435  &  CC411  &  GEST400
+Sup = 0.12796  Conf = 0.60000   CC416    <--    CC435  &  CC420  &  DIP461
+Sup = 0.12796  Conf = 0.60000   CC416    <--    CC435  &  CC420  &  GEST400
+Sup = 0.11374  Conf = 0.60000   CC416    <--    CC435  &  CC412  &  DIP461
+Sup = 0.11374  Conf = 0.60000   CC416    <--    CC435  &  CC412  &  GEST400
+Sup = 0.26066  Conf = 0.59140   CC416    <--    CC432
+Sup = 0.12322  Conf = 0.59091   CC416    <--    CC435  &  CC413  &  DIP463
+Sup = 0.12322  Conf = 0.59091   CC416    <--    CC435  &  CC411  &  DIP463
+Sup = 0.12796  Conf = 0.58696   CC416    <--    CC435  &  CC420  &  DIP463
+Sup = 0.11374  Conf = 0.58537   CC416    <--    CC435  &  CC412  &  DIP463
+Sup = 0.10427  Conf = 0.57895   CC416    <--    CC435  &  CC412  &  CC442
+Sup = 0.12322  Conf = 0.56522   CC416    <--    CC435  &  CC411  &  CC413
+Sup = 0.10427  Conf = 0.56410   CC416    <--    CC435  &  CC442  &  CC411
+Sup = 0.11374  Conf = 0.55814   CC416    <--    CC435  &  CC412  &  CC411
+Sup = 0.10427  Conf = 0.55000   CC416    <--    CC435  &  CC442  &  CC413
+Sup = 0.10900  Conf = 0.54762   CC416    <--    CC435  &  CC412  &  CC413
+Sup = 0.11374  Conf = 0.54545   CC416    <--    CC435  &  CC413  &  CC420
+Sup = 0.10427  Conf = 0.52381   CC416    <--    CC435  &  CC411  &  CC420
+Sup = 0.13270  Conf = 0.50909   CC416    <--    CC573
+Sup = 0.10427  Conf = 0.91667   CC435    <--    CC430  &  CC420
+Sup = 0.11848  Conf = 0.83333   CC435    <--    CC430  &  DIP463
+Sup = 0.13744  Conf = 0.80556   CC435    <--    CC430  &  CC432
+Sup = 0.12322  Conf = 0.78788   CC435    <--    CC416  &  CC420  &  GEST400  &  CC432
+Sup = 0.12322  Conf = 0.78788   CC435    <--    CC416  &  CC420  &  DIP461  &  CC432
+Sup = 0.12322  Conf = 0.78788   CC435    <--    CC416  &  CC420  &  DIP463  &  CC432
+Sup = 0.12796  Conf = 0.77143   CC435    <--    CC416  &  CC420  &  DIP461  &  GEST400
+Sup = 0.12796  Conf = 0.77143   CC435    <--    CC416  &  CC420  &  DIP463  &  GEST400
+Sup = 0.12796  Conf = 0.77143   CC435    <--    CC416  &  CC420  &  DIP463  &  DIP461
+Sup = 0.14218  Conf = 0.75000   CC435    <--    CC430
+Sup = 0.14218  Conf = 0.73171   CC435    <--    CC416  &  CC420
+Sup = 0.17536  Conf = 0.67273   CC435    <--    CC416  &  CC432
+Sup = 0.11374  Conf = 0.66667   CC435    <--    CC416  &  CC412  &  DIP461
+Sup = 0.11374  Conf = 0.66667   CC435    <--    CC416  &  CC412  &  GEST400
+Sup = 0.10427  Conf = 0.66667   CC435    <--    CC416  &  CC412  &  CC442
+Sup = 0.12322  Conf = 0.65000   CC435    <--    CC416  &  CC411  &  DIP461
+Sup = 0.12322  Conf = 0.65000   CC435    <--    CC416  &  CC411  &  GEST400
+Sup = 0.12322  Conf = 0.65000   CC435    <--    CC416  &  CC411  &  CC413
+Sup = 0.11374  Conf = 0.64865   CC435    <--    CC416  &  CC412  &  DIP463
+Sup = 0.16588  Conf = 0.64815   CC435    <--    CC416  &  DIP461  &  DIP463
+Sup = 0.16588  Conf = 0.64815   CC435    <--    CC416  &  GEST400  &  DIP463
+Sup = 0.10900  Conf = 0.63889   CC435    <--    CC416  &  CC412  &  CC413
+Sup = 0.16588  Conf = 0.63636   CC435    <--    CC416  &  GEST400  &  DIP461
+Sup = 0.12322  Conf = 0.63415   CC435    <--    CC416  &  CC413  &  DIP461
+Sup = 0.12322  Conf = 0.63415   CC435    <--    CC416  &  CC413  &  GEST400
+Sup = 0.12322  Conf = 0.63415   CC435    <--    CC416  &  CC411  &  DIP463
+Sup = 0.11374  Conf = 0.63158   CC435    <--    CC416  &  CC412  &  CC411
+Sup = 0.10427  Conf = 0.62857   CC435    <--    CC416  &  CC442  &  CC413
+Sup = 0.10427  Conf = 0.62857   CC435    <--    CC416  &  CC442  &  CC411
+Sup = 0.11848  Conf = 0.62500   CC435    <--    CC416  &  CC442  &  DIP463
+Sup = 0.11848  Conf = 0.62500   CC435    <--    CC416  &  CC442  &  DIP461
+Sup = 0.11848  Conf = 0.62500   CC435    <--    CC416  &  CC442  &  GEST400
+Sup = 0.12322  Conf = 0.61905   CC435    <--    CC416  &  CC413  &  DIP463
+Sup = 0.18483  Conf = 0.60938   CC435    <--    CC416
+Sup = 0.17062  Conf = 0.59016   CC435    <--    CC432  &  CC420  &  GEST400
+Sup = 0.17536  Conf = 0.58730   CC435    <--    CC432  &  CC420  &  DIP461
+Sup = 0.17536  Conf = 0.58730   CC435    <--    CC432  &  CC420  &  DIP463
+Sup = 0.24171  Conf = 0.54839   CC435    <--    CC432
+Sup = 0.20853  Conf = 0.54321   CC435    <--    CC432  &  DIP463  &  DIP461
+Sup = 0.20379  Conf = 0.53750   CC435    <--    CC432  &  GEST400  &  DIP463
+Sup = 0.20379  Conf = 0.53086   CC435    <--    CC432  &  GEST400  &  DIP461
+Sup = 0.15166  Conf = 0.50000   CC435    <--    CC411  &  CC432  &  DIP463  &  CC413
+Sup = 0.14692  Conf = 0.50000   CC435    <--    CC411  &  CC432  &  GEST400  &  CC413
+Sup = 0.24171  Conf = 0.77273   CC447    <--    CC421  &  CC420  &  CC422
+Sup = 0.26066  Conf = 0.70513   CC447    <--    CC422  &  CC420
+Sup = 0.25118  Conf = 0.69737   CC447    <--    CC421  &  CC422
+Sup = 0.25118  Conf = 0.66250   CC447    <--    CC421  &  CC420
+Sup = 0.27014  Conf = 0.64773   CC447    <--    CC422
+Sup = 0.17536  Conf = 0.59677   CC447    <--    CC442  &  CC421  &  CC412  &  CC411
+Sup = 0.26066  Conf = 0.52381   CC447    <--    CC421
+Sup = 0.19431  Conf = 0.50000   CC447    <--    CC442  &  CC412  &  CC420
+Sup = 0.12796  Conf = 0.65854   CC583    <--    CC447  &  CC422  &  DIP461
+Sup = 0.23697  Conf = 0.64935   CC583    <--    CC421  &  DIP461
+Sup = 0.12796  Conf = 0.64286   CC583    <--    CC447  &  CC422  &  GEST400
+Sup = 0.23697  Conf = 0.63291   CC583    <--    CC421  &  GEST400
+Sup = 0.12796  Conf = 0.61364   CC583    <--    CC447  &  CC422  &  DIP463
+Sup = 0.24645  Conf = 0.61176   CC583    <--    CC420  &  CC412  &  DIP461
+Sup = 0.23697  Conf = 0.60976   CC583    <--    CC421  &  DIP463
+Sup = 0.25118  Conf = 0.60920   CC583    <--    CC420  &  CC411  &  GEST400
+Sup = 0.25592  Conf = 0.60674   CC583    <--    CC420  &  CC411  &  DIP461
+Sup = 0.17062  Conf = 0.58065   CC583    <--    CC421  &  CC442  &  CC411  &  CC412
+Sup = 0.19431  Conf = 0.57746   CC583    <--    CC421  &  CC442
+Sup = 0.16114  Conf = 0.56667   CC583    <--    CC421  &  CC442  &  CC412  &  CC413
+Sup = 0.20853  Conf = 0.55000   CC583    <--    CC421  &  CC420
+Sup = 0.20379  Conf = 0.54430   CC583    <--    CC442  &  CC420  &  CC412  &  CC413
+Sup = 0.27014  Conf = 0.54286   CC583    <--    CC420  &  DIP463
+Sup = 0.12796  Conf = 0.54000   CC583    <--    CC447  &  DIP463
+Sup = 0.20379  Conf = 0.52439   CC583    <--    CC421  &  CC413
+Sup = 0.27014  Conf = 0.52294   CC583    <--    CC412  &  DIP463
+Sup = 0.11374  Conf = 0.52174   CC583    <--    CC447  &  CC411  &  CC422
+Sup = 0.34597  Conf = 0.52143   CC583    <--    DIP461
+Sup = 0.17536  Conf = 0.52113   CC583    <--    CC422  &  DIP463
+Sup = 0.33649  Conf = 0.51825   CC583    <--    GEST400
+Sup = 0.22275  Conf = 0.51087   CC583    <--    CC442  &  CC420
+Sup = 0.11848  Conf = 0.51020   CC583    <--    CC432  &  CC411  &  CC420  &  CC412  &  DIP463
+Sup = 0.24645  Conf = 0.50980   CC583    <--    CC442  &  DIP463
+Sup = 0.12796  Conf = 0.50943   CC583    <--    CC447  &  CC422  &  CC421
+Sup = 0.27488  Conf = 0.50877   CC583    <--    CC413  &  DIP463
+Sup = 0.20853  Conf = 0.50575   CC583    <--    CC421  &  CC411
+Sup = 0.25592  Conf = 0.50467   CC583    <--    CC420  &  CC411
+Sup = 0.27488  Conf = 0.50435   CC583    <--    CC411  &  DIP463
+Sup = 0.14218  Conf = 0.50000   CC583    <--    CC410  &  DIP463
+Sup = 0.13744  Conf = 0.50000   CC583    <--    CC422  &  CC412  &  CC413  &  CC420
+Sup = 0.12322  Conf = 0.50000   CC583    <--    CC422  &  CC442  &  CC412  &  CC411
+Sup = 0.11848  Conf = 0.50000   CC583    <--    CC422  &  CC442  &  CC412  &  CC413
+Sup = 0.10900  Conf = 0.50000   CC583    <--    CC447  &  CC413  &  CC422
+Sup = 0.10900  Conf = 0.50000   CC583    <--    CC447  &  CC412  &  CC421
+Sup = 0.24171  Conf = 0.58621   CC410    <--    CC421  &  CC411
+Sup = 0.18009  Conf = 0.58462   CC410    <--    CC421  &  GEST400  &  CC420
+Sup = 0.17536  Conf = 0.57812   CC410    <--    CC421  &  DIP461  &  CC420
+Sup = 0.18483  Conf = 0.56522   CC410    <--    CC421  &  CC420  &  DIP463
+Sup = 0.20853  Conf = 0.53659   CC410    <--    CC421  &  CC413
+Sup = 0.26540  Conf = 0.52830   CC410    <--    GEST400  &  CC413
+Sup = 0.34597  Conf = 0.52143   CC410    <--    CC412
+Sup = 0.18957  Conf = 0.51948   CC410    <--    CC421  &  DIP461
+Sup = 0.19431  Conf = 0.51899   CC410    <--    CC421  &  GEST400
+Sup = 0.36019  Conf = 0.51701   CC410    <--    CC411
+Sup = 0.24171  Conf = 0.51515   CC410    <--    CC420  &  GEST400
+Sup = 0.19431  Conf = 0.51250   CC410    <--    CC421  &  CC420
+Sup = 0.19905  Conf = 0.51220   CC410    <--    CC421  &  DIP463
+Sup = 0.26066  Conf = 0.50926   CC410    <--    DIP461  &  CC413
+Sup = 0.27014  Conf = 0.50000   CC410    <--    DIP463  &  CC413
+Sup = 0.26066  Conf = 0.50000   CC410    <--    CC420  &  CC413
+Sup = 0.17536  Conf = 0.50000   CC410    <--    CC432  &  CC413
+Sup = 0.15640  Conf = 0.50000   CC410    <--    CC422  &  GEST400
+Sup = 0.14692  Conf = 0.50000   CC410    <--    CC422  &  DIP461  &  CC420
+Sup = 0.10900  Conf = 0.50000   CC410    <--    CC447  &  DIP461  &  DIP463
+Sup = 0.12796  Conf = 1.00000   CC422    <--    CC447  &  CC583  &  DIP463
+Sup = 0.12796  Conf = 1.00000   CC422    <--    CC447  &  CC583  &  CC420
+Sup = 0.12796  Conf = 0.96429   CC422    <--    CC447  &  CC583
+Sup = 0.25118  Conf = 0.96364   CC422    <--    CC447  &  CC421
+Sup = 0.20379  Conf = 0.91489   CC422    <--    CC447  &  CC442
+Sup = 0.26066  Conf = 0.88710   CC422    <--    CC447  &  CC420
+Sup = 0.20853  Conf = 0.88000   CC422    <--    CC447  &  DIP463
+Sup = 0.31280  Conf = 0.82500   CC422    <--    CC421  &  CC420
+Sup = 0.27014  Conf = 0.81429   CC422    <--    CC447
+Sup = 0.30332  Conf = 0.78049   CC422    <--    CC413  &  CC421
+Sup = 0.36019  Conf = 0.72381   CC422    <--    CC421
+Sup = 0.36967  Conf = 0.59542   CC422    <--    CC420
+Sup = 0.15640  Conf = 0.56897   CC422    <--    CC410  &  DIP461
+Sup = 0.16114  Conf = 0.56667   CC422    <--    CC410  &  DIP463
+Sup = 0.15640  Conf = 0.55932   CC422    <--    CC410  &  GEST400
+Sup = 0.24645  Conf = 0.53608   CC422    <--    CC442  &  DIP461  &  DIP463
+Sup = 0.23697  Conf = 0.52632   CC422    <--    CC442  &  GEST400  &  DIP461
+Sup = 0.17536  Conf = 0.52113   CC422    <--    CC583  &  DIP463
+Sup = 0.28910  Conf = 0.51695   CC422    <--    CC442
+Sup = 0.34123  Conf = 0.51429   CC422    <--    CC413
+Sup = 0.33649  Conf = 0.50714   CC422    <--    CC412
+Sup = 0.17062  Conf = 0.50704   CC422    <--    CC583  &  GEST400
+Sup = 0.17536  Conf = 0.50685   CC422    <--    CC583  &  DIP461
+Sup = 0.31280  Conf = 0.50382   CC422    <--    GEST400  &  DIP463
+Sup = 0.35071  Conf = 0.50340   CC422    <--    CC411
+Sup = 0.14692  Conf = 1.00000   CC432    <--    CC430  &  DIP461
+Sup = 0.14218  Conf = 1.00000   CC432    <--    CC430  &  GEST400
+Sup = 0.14218  Conf = 1.00000   CC432    <--    CC430  &  DIP463
+Sup = 0.11374  Conf = 1.00000   CC432    <--    CC430  &  CC420
+Sup = 0.13744  Conf = 0.96667   CC432    <--    CC430  &  CC435
+Sup = 0.17536  Conf = 0.94872   CC432    <--    CC416  &  CC435
+Sup = 0.23697  Conf = 0.90909   CC432    <--    CC416  &  GEST400
+Sup = 0.23697  Conf = 0.90909   CC432    <--    CC416  &  DIP461
+Sup = 0.17062  Conf = 0.90000   CC432    <--    CC430
+Sup = 0.26066  Conf = 0.85938   CC432    <--    CC416
+Sup = 0.20853  Conf = 0.83019   CC432    <--    CC435  &  DIP463  &  DIP461
+Sup = 0.20379  Conf = 0.82692   CC432    <--    CC435  &  GEST400  &  DIP461
+Sup = 0.17536  Conf = 0.82222   CC432    <--    CC435  &  CC420  &  DIP461
+Sup = 0.20379  Conf = 0.81132   CC432    <--    CC435  &  GEST400  &  DIP463
+Sup = 0.17536  Conf = 0.80435   CC432    <--    CC435  &  CC420  &  DIP463
+Sup = 0.17062  Conf = 0.80000   CC432    <--    CC435  &  CC420  &  GEST400
+Sup = 0.15166  Conf = 0.80000   CC432    <--    CC573  &  CC411
+Sup = 0.24171  Conf = 0.79688   CC432    <--    CC435
+Sup = 0.14218  Conf = 0.78947   CC432    <--    CC573  &  CC442
+Sup = 0.14218  Conf = 0.78947   CC432    <--    CC573  &  CC413
+Sup = 0.13744  Conf = 0.78378   CC432    <--    CC573  &  CC412
+Sup = 0.18009  Conf = 0.73077   CC432    <--    CC573  &  GEST400
+Sup = 0.18009  Conf = 0.73077   CC432    <--    CC573  &  DIP461
+Sup = 0.18009  Conf = 0.73077   CC432    <--    CC573  &  DIP463
+Sup = 0.18009  Conf = 0.69091   CC432    <--    CC573
+Sup = 0.10427  Conf = 0.66667   CC432    <--    CC450
+Sup = 0.38389  Conf = 0.61832   CC432    <--    GEST400  &  DIP461
+Sup = 0.37915  Conf = 0.61069   CC432    <--    GEST400  &  DIP463
+Sup = 0.39336  Conf = 0.59286   CC432    <--    DIP461
+Sup = 0.38389  Conf = 0.59124   CC432    <--    GEST400
+Sup = 0.32701  Conf = 0.58475   CC432    <--    CC442
+Sup = 0.38863  Conf = 0.56552   CC432    <--    DIP463
+Sup = 0.33175  Conf = 0.53435   CC432    <--    CC420
+Sup = 0.35071  Conf = 0.52857   CC432    <--    CC413
+Sup = 0.31280  Conf = 0.50382   CC432    <--    CC412  &  CC411
+
