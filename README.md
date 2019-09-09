@@ -4,3 +4,9 @@
 # Contributors
 
 [Vitor Peixoto](https://github.com/VitorPeixoto97)
+
+# Classification
+
+* Part 1 - 20.0
+* Part 2 - 20.0
+* Part 3 - 20.0
